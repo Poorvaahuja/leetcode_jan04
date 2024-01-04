@@ -11,10 +11,13 @@ Given an array of integers nums and an integer k, return the total number of sub
 A subarray is a contiguous non-empty sequence of elements within an array.
 ## Q3
 You are given a 0-indexed array of strings nums, where each string is of equal length and consists of only digits.
-
 You are also given a 0-indexed 2D integer array queries where queries[i] = [ki, trimi]. For each queries[i], you need to:
-
 Trim each number in nums to its rightmost trimi digits.
 Determine the index of the kith smallest trimmed number in nums. If two trimmed numbers are equal, the number with the lower index is considered to be smaller.
 Reset each number in nums to its original length.
 Return an array answer of the same length as queries, where answer[i] is the answer to the ith query.
+## Q4
+The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is,
+F(0) = 0, F(1) = 1
+F(n) = F(n - 1) + F(n - 2), for n > 1.
+Given n, calculate F(n).
